@@ -1,0 +1,6 @@
+*.log
+*.swp
+*.swo
+*.pyc
+*.sqlite3
+.DS_Store
