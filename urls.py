@@ -5,5 +5,6 @@ from django.conf.urls.defaults import *
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-
+    #(r'', 'django.views.generic.simple.direct_to_template', {'template': 'index.html'})
+    (r'', 'koi.welcome.views.index'),
 )
