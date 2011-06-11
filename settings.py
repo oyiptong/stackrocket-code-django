@@ -86,3 +86,5 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'koi.welcome',
 )
+
+APPEND_SLASH = True
